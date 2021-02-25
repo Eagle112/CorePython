@@ -37,10 +37,12 @@ def main():
         threads.append(t)
 
     for i in nfuncs:
+        print funcs[i].__name__,'started at:', ctime()
         threads[i].start()
 
     for i in nfuncs:
         threads[i].join()
+        print funcs[i].__name__,'finished at:', ctime()
         print threads[i].getResult()
 
     print 'all DONE'
