@@ -14,7 +14,9 @@ if release > '2.6.2':
 else:
     SMTP_SSL = None
 
-from secret import *    # you need to provide MAILBOX, PASSWD
+# from secret import *    # you need to provide MAILBOX, PASSWD
+MAILBOX = 'a1060213615'
+PASSWD = ''
 
 who = '%s@gmail.com' % MAILBOX
 from_ = who

@@ -15,3 +15,4 @@ for i in range(randrange(5, 11)):
     dom = ''.join(choice(lc) for j in range(dlen))
     print '%s::%s@%s.%s::%d-%d-%d' % (dtstr, login,
         dom, choice(tlds), dtint, llen, dlen)
+123123123123123123123123123

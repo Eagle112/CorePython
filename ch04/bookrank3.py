@@ -6,7 +6,7 @@ from threading import Thread
 from time import ctime
 from urllib.request import urlopen as uopen
 
-REGEX = compile(b'#([\d,]+) in Books ')
+REGEX = compile('#([\d,]+) in Books ')
 AMZN = 'http://amazon.com/dp/'
 ISBNs = {
     '0132269937': 'Core Python Programming',

@@ -4,7 +4,7 @@ import urllib2
 
 LOGIN = 'wesley'
 PASSWD = "you'llNeverGuess"
-URL = 'http://localhost'
+URL = 'http://127.0.0.1:8887'
 REALM = 'Secure Archive'
 
 def handler_version(url):

@@ -4,10 +4,10 @@ from smtplib import SMTP
 from poplib import POP3
 from time import sleep
 
-SMTPSVR = 'smtp.python.is.cool'
-POP3SVR = 'pop.python.is.cool'
+SMTPSVR = 'qq.com'
+POP3SVR = 'qq.com'
 
-who = 'wesley@python.is.cool'
+who = '1060213615@qq.com'
 body = '''\
 From: %(who)s
 To: %(who)s
