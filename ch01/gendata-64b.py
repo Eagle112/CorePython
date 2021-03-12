@@ -16,3 +16,5 @@ for i in range(randrange(5, 11)):
     print '%s::%s@%s.%s::%d-%d-%d' % (dtstr, login,
         dom, choice(tlds), dtint, llen, dlen)
 123123123123123123123123123
+
+123123123
