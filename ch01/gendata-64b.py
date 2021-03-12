@@ -12,6 +12,7 @@ for i in range(randrange(5, 11)):
     dtint = randrange(2**32)	# random date
     dtstr = ctime(dtint)	# date string
     llen = randrange(4, 7)	# login llen
+    abc
     login = ''.join(choice(lc) for j in range(llen))
     dlen = randrange(llen, 13)	# domain dlen
     dom = ''.join(choice(lc) for j in range(dlen))
