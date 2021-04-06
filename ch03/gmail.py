@@ -15,7 +15,7 @@ else:
     SMTP_SSL = None
 
 # from secret import *    # you need to provide MAILBOX, PASSWD
-MAILBOX = 'a1060213615'
+MAILBOX = ''
 PASSWD = ''
 
 who = '%s@gmail.com' % MAILBOX

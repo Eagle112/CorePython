@@ -100,7 +100,7 @@ class Crawler(object):
 
     def go(self, media=False):
         'Process next page in queue (if any)'
-        while self.q:
+        while self.q and Crawler.count<=20:
             url = self.q.pop()
             self.get_page(url, media)
 

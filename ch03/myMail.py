@@ -7,7 +7,7 @@ from time import sleep
 SMTPSVR = 'qq.com'
 POP3SVR = 'qq.com'
 
-who = '1060213615@qq.com'
+who = ''
 body = '''\
 From: %(who)s
 To: %(who)s
